@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Success Print and Design</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body class="bg-dark text-white">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">
+                    <span class="text-primary">Success</span> print and design
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Portfolio Header -->
+        <section class="portfolio-header py-5 mt-5">
+            <div class="container">
+                <h1 class="display-4 text-center mb-5" data-aos="fade-up">Our Creative Portfolio</h1>
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center article">
+                        <p class="lead text-white" data-aos="fade-up" data-aos-delay="100">
+                            Explore our diverse collection of design projects that showcase our expertise in graphic design, branding, and digital solutions.
+                        </p>
+                    </div>
+                </div>
+                <!-- Portfolio Filter -->
+                <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-primary active" data-filter="*">All</button>
+                        <button class="btn btn-primary" data-filter=".branding">Branding</button>
+                        <button class="btn btn-primary" data-filter=".print">Print</button>
+                        <button class="btn btn-primary" data-filter=".digital">Digital</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="portfolio-grid py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Portfolio Item 1 -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="portfolio-item card bg-dark border-primary">
+                            <img src="../assets/WhatsApp Image 2025-05-01 at 21.23.18 (1).jpeg" class="card-img-top" alt="Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Brand Identity Design</h5>
+                                <p class="card-text text-white">Corporate branding and identity design project.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">View Details</button>
+                                    </div>
+                                    <small class="text-primary">Branding</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Portfolio Item 2 -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="portfolio-item card bg-dark border-primary">
+                            <img src="../assets/WhatsApp Image 2025-05-01 at 21.23.18.jpeg" class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Brand Identity Design</h5>
+                                <p class="card-text text-white">Corporate branding and identity design project.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">View Details</button>
+                                    </div>
+                                    <small class="text-primary">Branding</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Portfolio Item 3 -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="portfolio-item card bg-dark border-primary">
+                            <img src="../assets/WhatsApp Image 2025-05-01 at 21.23.19 (1).jpeg" class="card-img-top" alt="Project 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Brand Identity Design</h5>
+                                <p class="card-text text-white">Corporate branding and identity design project.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">View Details</button>
+                                    </div>
+                                    <small class="text-primary">Branding</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-4 border-top border-primary">
+        <div class="container text-center">
+            <p class="mb-0">© 2025 Success Print and Design. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

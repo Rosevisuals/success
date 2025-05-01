@@ -1,0 +1,36 @@
+/* Keyframe animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Transition effects */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.slide-in {
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+.button-hover {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-hover:hover {
+    background-color: #0056b3; /* Example hover color */
+    transform: scale(1.05);
+}

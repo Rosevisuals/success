@@ -1,0 +1,350 @@
+/* Main styles for the graphics design website */
+
+/* Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Custom styles */
+.navbar {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Button styles */
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+.hero img {
+    transition: transform 0.3s ease;
+}
+
+.hero img:hover {
+    transform: scale(1.02);
+}
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #212121;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    transition: background-color 0.3s ease;
+    padding: 1rem 0;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-brand .text-primary {
+    color: #0d6efd !important;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-left: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #0d6efd !important;
+}
+
+/* Portfolio Header */
+.portfolio-header {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.portfolio-header h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio-header .lead {
+    font-size: 1.25rem;
+    color: #b0b0b0;
+}
+
+/* Portfolio Filter Buttons */
+.btn-group .btn {
+    border-radius: 0;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-group .btn.active,
+.btn-group .btn:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border-color: #0d6efd;
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+    padding: 4rem 0;
+}
+
+.portfolio-item {
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.05);
+}
+
+.portfolio-item .card-body {
+    padding: 1.5rem;
+}
+
+.portfolio-item .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.portfolio-item .card-text {
+    color: #b0b0b0;
+    font-size: 1rem;
+}
+
+.portfolio-item .btn-outline-primary {
+    border-color: #0d6efd;
+    color: #0d6efd;
+    transition: all 0.3s ease;
+}
+
+.portfolio-item .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    padding: 2rem 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .portfolio-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .portfolio-header .lead {
+        font-size: 1rem;
+    }
+
+    .portfolio-item img {
+        height: 150px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-header {
+        padding-top: 5rem;
+    }
+
+    .btn-group .btn {
+        padding: 0.4rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .portfolio-item .card-title {
+        font-size: 1.1rem;
+    }
+
+    .portfolio-item .card-text {
+        font-size: 0.9rem;
+    }
+}
+/* Testimonials Styles */
+.testimonials .card {
+    height: 100%;
+}
+
+.client-info {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Add animation for cards */
+.card {
+    transform: translateY(0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,123,255,0.2);
+}
+/* Quote Section Styles */
+.quote-section blockquote {
+    font-style: italic;
+    position: relative;
+}
+
+.quote-section blockquote::before,
+.quote-section blockquote::after {
+    content: '"';
+    font-size: 3rem;
+    color: var(--primary);
+    position: absolute;
+}
+
+.quote-section blockquote::before {
+    left: -2rem;
+    top: -1rem;
+}
+
+.quote-section blockquote::after {
+    right: -2rem;
+    bottom: -2rem;
+}
+
+/* Contact Section Styles */
+.contact-form .form-control {
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.contact-form .form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.contact-info a:hover {
+    color: var(--primary) !important;
+}
+
+.social-links a {
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+}
+.modern-card {
+    background: rgba(33, 37, 41, 0.95);
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.modern-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 123, 255, 0.2);
+    border-color: transparent;
+    background: rgba(13, 110, 253, 0.1);
+}
+
+.modern-card i {
+    transition: transform 0.3s ease;
+}
+
+.modern-card:hover i {
+    transform: scale(1.2);
+}
+
+.modern-card h2 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    color: white;
+}
+
+.modern-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.services-grid {
+    padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .modern-card {
+        margin-bottom: 30px;
+    }
+    
+    .modern-card h2 {
+        font-size: 1.75rem;
+    }
+}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphics Design Studio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body class="bg-dark text-white">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">
+                    <span class="text-primary">Success</span> print and design
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero min-vh-100 d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <h1 class="display-3 fw-bold mb-4">Crafting Digital <span class="text-primary">Experiences</span></h1>
+                        <p class="lead mb-4">We transform ideas into stunning visual realities through innovative design solutions.</p>
+                        <a href="portfolio.html" class="btn btn-primary btn-lg">Explore Our Work</a>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <img src="../assets/image.jpg" alt="Design Illustration" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="services py-5">
+            <div class="container">
+                <h2 class="text-center mb-5" data-aos="fade-up">Our Services</h2>
+                <div class="row g-4">
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="card bg-dark text-white border-primary">
+                            <div class="card-body text-center">
+                                <i class="bi bi-palette fs-1 text-primary mb-3"></i>
+                                <h3 class="card-title">Graphic Design</h3>
+                                <p class="card-text">Creating visually stunning designs that communicate your message effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="card bg-dark text-white border-primary">
+                            <div class="card-body text-center">
+                                <i class="bi bi-camera-video fs-1 text-primary mb-3"></i>
+                                <h3 class="card-title">Videography</h3>
+                                <p class="card-text">Professional video production and editing for your brand storytelling.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card bg-dark text-white border-primary">
+                            <div class="card-body text-center">
+                                <i class="bi bi-box-seam fs-1 text-primary mb-3"></i>
+                                <h3 class="card-title">Packaging Design</h3>
+                                <p class="card-text">Eye-catching packaging solutions that make your products stand out.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card bg-dark text-white border-primary">
+                            <div class="card-body text-center">
+                                <i class="bi bi-laptop fs-1 text-primary mb-3"></i>
+                                <h3 class="card-title">Web Design</h3>
+                                <p class="card-text">Building responsive and modern websites that engage your audience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="card bg-dark text-white border-primary">
+                            <div class="card-body text-center">
+                                <i class="bi bi-camera fs-1 text-primary mb-3"></i>
+                                <h3 class="card-title">Brand Identity</h3>
+                                <p class="card-text">Developing unique brand identities that make you stand out.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="card bg-dark text-white border-primary">
+                            <div class="card-body text-center">
+                                <i class="bi bi-printer fs-1 text-primary mb-3"></i>
+                                <h3 class="card-title">Print Design</h3>
+                                <p class="card-text">High-quality print materials from business cards to large formats.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add Portfolio Preview Section 
+        <section class="portfolio-preview py-5 bg-black">
+            <div class="container">
+                <h2 class="text-center mb-5" data-aos="fade-up">Recent Work</h2>
+                <div class="row g-4">
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="portfolio-item position-relative">
+                            <img src="assets/portfolio-1.jpg" alt="Portfolio Item" class="img-fluid">
+                            <div class="overlay d-flex align-items-center justify-content-center">
+                                <a href="portfolio.html" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>-->
+
+        <!-- Replace the testimonials section with this -->
+<section class="quote-section py-5 bg-black">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center" data-aos="fade-up">
+                <blockquote class="fs-2 fw-light mb-4">
+                    "Design is not just what it looks like and feels like. Design is how it works."
+                </blockquote>
+                <cite class="text-primary">- Steve Jobs</cite>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Replace the existing contact section -->
+<section class="contact-section py-5 bg-darker">
+    <div class="container">
+        <h2 class="text-center mb-5 text-primary" data-aos="fade-up">Get In Touch</h2>
+        <div class="row g-4">
+            <div class="col-md-6" data-aos="fade-right">
+                <form class="contact-form p-4 bg-dark border border-primary rounded-3 shadow">
+                    <div class="mb-4">
+                        <label class="form-label text-primary">Name</label>
+                        <input type="text" class="form-control custom-input" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label text-primary">Email</label>
+                        <input type="email" class="form-control custom-input" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label text-primary">Message</label>
+                        <textarea class="form-control custom-input" rows="5" placeholder="Type your message here" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 py-3 fw-bold">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <div class="contact-info p-4 bg-dark border border-primary rounded-3 shadow h-100">
+                    <h3 class="text-primary mb-4">Connect With Us</h3>
+                    <div class="contact-item mb-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box">
+                                <i class="bi bi-envelope-fill fs-4"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="mb-1 text-white">Email</h5>
+                                <a href="mailto:successprintanddesign@gmail.com" class="text-light text-decoration-none">successprintanddesign@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-item mb-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box">
+                                <i class="bi bi-whatsapp fs-4"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="mb-1 text-white">WhatsApp</h5>
+                                <a href="https://wa.me/1234567890" class="text-light text-decoration-none">+256708757876</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-item mb-4">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-box">
+                                <i class="bi bi-instagram fs-4"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="mb-1 text-white">Instagram</h5>
+                                <a href="https://www.instagram.com/success_print_and_design?igsh=MTgxZWZiMHA0bHJtdA%3D%3D&utm_source=qr" class="text-light text-decoration-none">success_print_and_design</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links mt-5">
+                        <h5 class="text-primary mb-3">Follow Us</h5>
+                        <div class="d-flex gap-3">
+                            <a href="https://www.instagram.com/success_print_and_design?igsh=MTgxZWZiMHA0bHJtdA%3D%3D&utm_source=qr" class="btn btn-primary btn-lg"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="btn btn-primary btn-lg"><i class="bi bi-whatsapp"></i></a>
+                            <a href="successprintanddesign.com" class="btn btn-primary btn-lg"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="py-4 border-top border-primary">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Success print and design. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
